@@ -7,7 +7,7 @@ categories:
   - charlas
 tags: 
   - machine learning
-  - estadística
+  - estadistica
 ---
 
 **En nuestra reunión de Abril de 2019, [Miguel Pavón Barrera](https://www.linkedin.com/in/miguel-pav%C3%B3n-barrera-99159b133/), Data Scientist en Ayesa, hizo una espléndida presentación de distintas estrategias para llevar a cabo la selección de variables en modelos predictivos de Machine Learning.**
