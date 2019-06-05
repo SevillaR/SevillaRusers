@@ -17,7 +17,7 @@ Manuel comenzó repasando el concepto de 'Big Data' y las varias 'V' que lo cara
 
 Finalmente hicieron algunos demostraciones prácticas con sparklyr: [importación, manipulación, visualización y ajuste de modelos de MLlib](https://github.com/SevillaR/meetings/blob/gh-pages/2019-06-04_BigData-Spark/demo_MLlib.R), y [tratamiento de datos en tiempo real (Streaming)](https://spark.rstudio.com/guides/streaming/).
 
-[Diapositivas](https://github.com/SevillaR/meetings/blob/gh-pages/2019-06-04_BigData-Spark/%5BR-Users%5D%20Big%20Data%20con%20Spark%20y%20R.pdf
+[Diapositivas](https://github.com/SevillaR/meetings/blob/gh-pages/2019-06-04_BigData-Spark/%5BR-Users%5D%20Big%20Data%20con%20Spark%20y%20R.pdf)
 
 [Vídeo](https://www.youtube.com/watch?v=df1AxL9tugM)
 
