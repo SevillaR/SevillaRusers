@@ -10,18 +10,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 ## Hugo Built-in Features
 # disqusShortname = "your-disqus-shortname"
 # googleAnalytics = "your-google-analytics-id"
-# enableRobotsTXT = true
+enableRobotsTXT = true
 
 ## Site Settings
 [params]
     author = "Grupo de Usuarios de R de Sevilla"
     title = "SevillaR"
     description = "Grupo de usuarios del lenguaje de programación y programa estadístico R en Sevilla"
-    authorimage = "/img/logoSevillaR2.jpg"
+    authorimage = "img/logoSevillaR2.jpg"
     dateformat = "2 Jan 2006"
 
     # sidebar, copyright & license
-    copyright = "htr3n"
+    copyright = "SevillaR"
     license = "CC BY-SA 4.0"
     licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
     showBuiltWith = false
@@ -32,22 +32,29 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     # please choose either GraphComment or Disqus
     # GraphCommentId = "your-graph-comment-id"
 
+    relatedPosts = true
+    postNavigation = true
+
+## Site Meta Settings
+[params.meta]
+    description = "R Users Website in Seville :: stats, rstats, datascience, programming, machinelearning"
+    keywords = "website, blog, seville, rusers, sevillar, rgroup, stats, rstats, datascience, programming, machinelearning"
+
 ## Social Accounts
 [params.social]
     github = "SevillaR"
     # instagram = "<username>"
     # xing = "<username>"
-    # linkedin = "<username>"
+    linkedin = "gruposevillar"
     twitter = "_SevillaR"
+    telegram = "+HE3IBL13swTfZwYI" #"UjOers2ZytFhNTNk"
     # facebook = "<username>"
     # stackoverflow = "<username>"
     email = "SevillaRUG@gmail.com"
     meetup = "Sevilla-R-users"
-    forum = "sevillarusers"
+    # forum = "sevillarusers"
     youtube = "UC4_SN0le5WFMu_LFaIufLbA"
     feed = "index.xml"
-
-
 
 ## Main Menu
 [[menu.main]]
@@ -65,4 +72,31 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 100
     identifier = "posts"
     url = "/posts/"
+
+
+## Related
+# https://gohugo.io/content-management/related
+[related]
+    # Only include matches with rank >= threshold. This is a normalized rank
+    # between 0 and 100.
+    threshold = 80
+    # To get stable "See also" sections we, by default, exclude newer related
+    # pages.
+    includeNewer = false
+    # Will lower case keywords in both queries and in the indexes.
+    toLower = false
+[[related.indices]]
+    name = "keywords"
+    weight = 150
+[[related.indices]]
+    name  = "author"
+    toLower = true
+    weight = 30
+[[related.indices]]
+    name  = "tags"
+    weight = 100
+[[related.indices]]
+    name  = "date"
+    weight = 10
+    pattern = "2006"
 
