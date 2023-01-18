@@ -4,6 +4,7 @@ author: ibartomeus
 date: '2014-10-09'
 slug: primera-reunión
 categories: 
+  - anuncios
   - charlas
   - grupo
 tags:
